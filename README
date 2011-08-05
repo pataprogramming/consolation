@@ -1,0 +1,33 @@
+Consolation is intended to bring the web into your console in a form
+suitable for consumption by UNIX scripts.  This is hardly an original
+idea, of course. Surfraw, for example (http://surfraw.alioth.debian.org/)
+provides a one-way street from the command-line to web search engines
+and other Internet data sources.  Consolation will close the loop by also
+returning nicely-parsed results in a form suitable for either piping to
+other scripts or simply viewing as quiet text in your terminal window.
+
+In its present form, Consolation is pre-pre-release software, executable
+notes written in order to feel out the design space.  There is only
+a single rudimentary script at the moment, google.rb, that accepts search
+terms as arguments and returns the first ten URLs from Google, one
+per line.
+
+Consolation depends on Hpricot, which should be installed using gem or
+your operating system's package management system.
+
+---------------------------------------------------------------------------
+
+Copyright (c) 2011 Paul L. Snyder (paul@pataprogramming.com)
+
+Consolation is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+Consolation is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
